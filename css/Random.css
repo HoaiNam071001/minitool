@@ -1,0 +1,66 @@
+.random-sys{
+    font-family: var(--Cambria);
+}
+.input-random{
+    width:45%;
+    margin-bottom: 10px;
+    border: 1px solid #858585;
+    border-radius: 2px; 
+    padding: 5px 0px 5px 10px;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+}
+.input-group-arrow{
+    margin:0;
+    padding:0px;
+    align-content: 0 auto;
+    width:10px;
+    color:rgb(255, 0, 0);
+    font-size: 20px;
+    width:10%;
+}
+.output{
+    display:block;
+    width:100%;
+}
+.output > *{
+    margin: 0 auto;
+}
+.result-random-now{
+    display: flex;
+    background:radial-gradient(circle, rgb(208, 255, 1) 0%, rgb(12, 185, 26) 100%);
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 2px 4px 10px 2px rgb(148, 133, 114);
+}
+.result-random-now > *{
+    display:block;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
+    font-family: "Candara";
+    font-weight: bold;
+    padding-top:55px;
+}
+.result-random-now:hover{
+    background:radial-gradient(circle, rgb(223, 250, 104) 0%, rgb(59, 179, 67) 100%);
+}
+
+.result-random-list{
+    padding: 15px;
+}
+.result-random-list > div > *{
+    display: inline-block;
+    width:25%;
+    font-size:20px;
+    margin-bottom:5px;
+}
+@keyframes erorrRandom {
+    from{
+        border:2px solid red;
+    }
+    to{
+        border:1px solid#858585;
+    }
+}

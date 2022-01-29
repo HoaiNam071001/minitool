@@ -1,0 +1,14 @@
+:root{
+    --nav-background: linear-gradient(90deg, rgba(78,255,143,1) 0%, rgba(48,125,255,1) 100%);
+    --Times-New-Roman:"Times New Roman", Times, serif;
+    --Cambria: "Cambria";
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containt{
+  margin-top: 50px;
+}
