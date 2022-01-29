@@ -72,3 +72,10 @@ svg{
 a::after{
     content: attr(href);
 }
+
+#clockNam{
+    font-size:25px;
+    margin: 5px;
+    font-weight:bold;
+    color:rgb(0, 110, 255);
+}
