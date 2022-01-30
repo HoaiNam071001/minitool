@@ -74,9 +74,7 @@ svg{
     height:25px;
     float:right;
 }
-a::after{
-    content: attr(href);
-}
+
 
 #clockNam{
     font-size:25px;

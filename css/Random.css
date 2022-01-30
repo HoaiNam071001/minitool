@@ -41,7 +41,7 @@
 }
 .result-random-now{
     display: flex;
-    background:radial-gradient(circle, rgb(208, 255, 1) 0%, rgb(12, 185, 26) 100%);
+    background:var(--content-bgd-gradient);
     width:150px;
     height:150px;
     border-radius: 50%;
