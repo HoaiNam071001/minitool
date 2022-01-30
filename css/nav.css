@@ -12,11 +12,16 @@
     padding-left:10px;
     background:var(--nav-background);
     color:rgb(0, 0, 0);
-    box-shadow: 2px 2px 2px 2px rgb(189, 189, 189);
+    box-shadow: 2px 2px 2px 2px rgb(0, 131, 0);
     height:45px;
 }
 .list-menu-nam{
-    width: 85vw;
+    width: 30vw;
+    margin: 0 auto;
+    position: fixed;
+    left:0px;
+    right:0px;
+    top:0px;
 }
 marquee{
     font-size: 30px;
@@ -77,5 +82,8 @@ a::after{
     font-size:25px;
     margin: 5px;
     font-weight:bold;
-    color:rgb(0, 110, 255);
+    color:rgb(255, 251, 0);
+    position:fixed;
+    top: 0;
+    right:10px;
 }

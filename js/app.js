@@ -25,6 +25,7 @@ $(document).ready(function() {
                 $from.css('webkitAnimationName','erorrRandom');
                 return;
             }
+            $('#btn-random-submit').attr('disabled',true);
             const IntervalRandom = setInterval(()=>{
                 k = Math.floor(Math.random() * ( max - min + 1)) + min;
                 $('.result-random-now').children('h2').html(k);
@@ -43,7 +44,8 @@ $(document).ready(function() {
                 news.appendChild(child1);
                 news.appendChild(child2);
                 len++;
-                $('.result-random-list').append(news);    
+                $('.result-random-list').prepend(news);    
+                $('#btn-random-submit').attr('disabled',false);
             },3000);
 
             

@@ -10,5 +10,8 @@
     box-sizing: border-box;
 }
 .containt{
-  margin-top: 50px;
+  margin-top: 70px;
+}
+body{
+  background-color: rgb(224, 255, 206);
 }
