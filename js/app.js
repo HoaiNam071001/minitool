@@ -26,12 +26,15 @@ $(document).ready(function() {
                 return;
             }
             $('#btn-random-submit').attr('disabled',true);
+            var minS = Number(String($("#from-random").val()).length);
+            var maxS = Number(String($("#to-random").val()).length);
             const IntervalRandom = setInterval(()=>{
                 k = Math.floor(Math.random() * ( max - min + 1)) + min;
                 $('.result-random-now').children('h2').html(k);
-            }, 100);
+            }, 250);
             setTimeout(()=>{
                 clearInterval(IntervalRandom);
+                len++;
                 var news = document.createElement('div'),
                 child1=document.createElement('label'),
                 child2=document.createElement('a');
@@ -43,7 +46,7 @@ $(document).ready(function() {
                 child2.setAttribute('onClick','removerandom(this.id)');
                 news.appendChild(child1);
                 news.appendChild(child2);
-                len++;
+                
                 $('.result-random-list').prepend(news);    
                 $('#btn-random-submit').attr('disabled',false);
             },3000);
@@ -51,7 +54,9 @@ $(document).ready(function() {
             
         } 
     })
-        
+    $('.clear-random-result').click(()=>{
+        $('.result-random-list').children().remove();
+    })   
 })
 function removerandom(x){
     $('div').remove('.'+x);

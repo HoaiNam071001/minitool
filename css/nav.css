@@ -90,7 +90,7 @@ a::after{
 h1{
     font-family: var(--Cambria);
     font-weight: bold;
-    
+    margin-left: 10px;
 }
 @media only screen and (max-width:480px){
     h1{
