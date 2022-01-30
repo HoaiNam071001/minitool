@@ -31,6 +31,7 @@
 #btn-random-submit{
     margin:15px 0px 20px 50px;
     width:100px;
+    box-shadow:3px 2px 3px 2px rgb(33, 32, 117);
 }
 .output{
     display:block;
