@@ -67,7 +67,7 @@
 }
 .result-random-list{
     padding: 15px;
-    overflow: scroll;
+    overflow: auto;
     height:400px;
 }
 .result-random-list > div > *{
