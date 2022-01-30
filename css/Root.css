@@ -1,9 +1,10 @@
 :root{
-    --nav-background: #ffffff;
-    --content-bgd-gradient: radial-gradient(circle, rgb(208, 255, 1) 0%, rgb(12, 185, 26) 100%);
-    --Times-New-Roman:"Times New Roman", Times, serif;
-    --Cambria: "Cambria";
-    --background-body:rgb(240, 238, 228);
+  --nav-color: #ffffff;
+  --nav-background: #000000;
+  --content-bgd-gradient: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+  --Times-New-Roman:"Times New Roman", Times, serif;
+  --Cambria: "Cambria";
+  --background-body:rgb(240, 238, 228);
 }
 
 * {
@@ -22,7 +23,7 @@ footer{
   display: flex;
   justify-content:center;
   margin-top:50px;
-  background:rgb(44, 44, 44);
+  background:rgb(0, 0, 0);
   height:50px;
 }
 footer > *{

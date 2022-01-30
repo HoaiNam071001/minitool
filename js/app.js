@@ -25,6 +25,7 @@ $(document).ready(function() {
                 $from.css('webkitAnimationName','erorrRandom');
                 return;
             }
+            $('.btn-clear-random-now').attr('disabled',true);
             $('#btn-random-submit').attr('disabled',true);
             var minS = Number(String($("#from-random").val()).length);
             var maxS = Number(String($("#to-random").val()).length);
@@ -49,6 +50,9 @@ $(document).ready(function() {
                 
                 $('.result-random-list').prepend(news);    
                 $('#btn-random-submit').attr('disabled',false);
+                $('.btn-clear-random-now').attr('disabled',false);
+                if($('.clear-random-result').attr('disabled'))
+                    $('.clear-random-result').attr('disabled', false);
             },3000);
 
             
@@ -56,10 +60,19 @@ $(document).ready(function() {
     })
     $('.clear-random-result').click(()=>{
         $('.result-random-list').children().remove();
+        $('.clear-random-result').attr('disabled', true);
     })   
+    $('.clear-random-result').attr('disabled', true);
+
+    $('.btn-clear-random-now').click(()=>{
+        $('.input-random').val('');
+        $('.result-random-now').children('h2').html('0');
+    })
 })
 function removerandom(x){
     $('div').remove('.'+x);
+    if(!$('div.result-random-list').children().length) 
+        $('.clear-random-result').attr('disabled', true);
 }
 setInterval(myTimer, 1000);
 

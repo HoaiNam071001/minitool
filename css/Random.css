@@ -6,8 +6,8 @@
 }
 .random-execute{
     padding: 5%;
-    background: linear-gradient(90deg, rgb(78, 255, 196) 0%, rgb(255, 183, 48) 100%);
-    box-shadow: 2px 2px 2px rgb(29, 29, 29);
+    background-color:#ffffff;
+    box-shadow: 2px 2px 2px 2px rgb(29, 29, 29);
 }
 .input-random{
     width:45%;
@@ -57,11 +57,18 @@
     padding-top:55px;
 }
 .result-random-now:hover{
-    background:radial-gradient(circle, rgb(223, 250, 104) 0%, rgb(59, 179, 67) 100%);
+    background:radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(95, 95, 95) 100%);
 }
-
+.btn-clear-random-now{
+    float: right;
+    margin:15px 0px 20px 0px;
+    width:70px;
+    box-shadow:3px 2px 3px 2px rgb(100, 100, 100);
+}
 .result-random-list{
     padding: 15px;
+    overflow: scroll;
+    height:400px;
 }
 .result-random-list > div > *{
     display: inline-block;
@@ -72,7 +79,7 @@
 .result-list-block{
     position: relative;
     background-color:#ffffff;
-    box-shadow: 1px 1px 3px 1px rgb(29, 29, 29);
+    box-shadow: 2px 2px 2px 2px rgb(29, 29, 29);
 }
 .result-random-list > div > label{
     margin-left: 40px;
