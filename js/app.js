@@ -39,11 +39,11 @@ $(document).ready(function() {
                 var news = document.createElement('div'),
                 child1=document.createElement('label'),
                 child2=document.createElement('a');
-                news.setAttribute('class', len + "rạnd");
+                news.setAttribute('class', len + "rand");
                 news.setAttribute('style', 'display:block');
                 child1.innerHTML = k;
                 child2.innerHTML = '<i class="fas fa-times"></i>';
-                child2.setAttribute('id', len + "rạnd");
+                child2.setAttribute('id', len + "rand");
                 child2.setAttribute('onClick','removerandom(this.id)');
                 news.appendChild(child1);
                 news.appendChild(child2);
