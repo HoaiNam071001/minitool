@@ -32,7 +32,7 @@ $(document).ready(function() {
             const IntervalRandom = setInterval(()=>{
                 k = Math.floor(Math.random() * ( max - min + 1)) + min;
                 $('.result-random-now').children('h2').html(k);
-            }, 250);
+            }, 100);
             setTimeout(()=>{
                 clearInterval(IntervalRandom);
                 len++;
