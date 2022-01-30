@@ -17,6 +17,21 @@
 body{
   background-color: var(--background-body);
 }
+
+footer{
+  display: flex;
+  justify-content:center;
+  margin-top:50px;
+  background:rgb(44, 44, 44);
+  height:50px;
+}
+footer > *{
+  color:#ffffff;
+  margin:auto 0px;
+}
+
+
+
 /* a::after{
   content: attr(href);
 } */
