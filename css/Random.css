@@ -1,6 +1,8 @@
 .random-sys{
     font-family: var(--Cambria);
     font-weight: bold;
+    display:block;
+    margin:10px 0px 0px 50px;
 }
 .random-execute{
     padding: 5%;
@@ -28,6 +30,7 @@
 }
 #btn-random-submit{
     margin:15px 0px 20px 50px;
+    width:100px;
 }
 .output{
     display:block;
@@ -62,11 +65,13 @@
 }
 .result-random-list > div > *{
     display: inline-block;
-    width:40%;
+    width:30%;
     font-size:20px;
     margin-bottom:5px;
 }
-
+.result-random-list > div > label{
+    margin-left: 40px;
+}
 @keyframes erorrRandom {
     from{
         border:2px solid red;
@@ -79,10 +84,11 @@
     .input-random{
         width:35%;
     }
-    .result-random-list > div > label{
-        width:80%;
-    }
-    .result-random-list > div > a{
-        width:5%;
+    .random-execute{
+        margin:5%;
+        width: 90%;
+    }    
+    #btn-random-submit{
+        margin:15px 0px 20px 0px;
     }
 }
