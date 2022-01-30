@@ -87,3 +87,16 @@ a::after{
     top: 0;
     right:10px;
 }
+h1{
+    font-family: var(--Cambria);
+    font-weight: bold;
+    
+}
+@media only screen and (max-width:480px){
+    h1{
+        margin: 7px 0px 0px 5px;
+    }
+    marquee{
+        display:none;
+    }
+}

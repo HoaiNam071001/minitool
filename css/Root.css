@@ -2,6 +2,7 @@
     --nav-background: #ffffff;
     --Times-New-Roman:"Times New Roman", Times, serif;
     --Cambria: "Cambria";
+    --background-body:rgb(240, 238, 228);
   }
 
 * {
@@ -13,5 +14,5 @@
   margin-top: 70px;
 }
 body{
-  background-color: rgb(224, 255, 206);
+  background-color: var(--background-body);
 }
