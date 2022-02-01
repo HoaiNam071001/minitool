@@ -7,7 +7,7 @@
 .random-execute{
     padding: 5%;
     background-color:#ffffff;
-    box-shadow: 2px 2px 2px 2px rgb(29, 29, 29);
+    border-radius: 10px 0px 0px 10px;
 }
 .input-random{
     width:45%;
@@ -30,7 +30,6 @@
 #btn-random-submit{
     margin:15px 0px 20px 50px;
     width:100px;
-    box-shadow:3px 2px 3px 2px rgb(33, 32, 117);
 }
 .output{
     display:block;
@@ -46,7 +45,6 @@
     height:150px;
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: 2px 4px 10px 2px rgb(148, 133, 114);
 }
 .result-random-now > *{
     display:block;
@@ -63,7 +61,6 @@
     float: right;
     margin:15px 0px 20px 0px;
     width:70px;
-    box-shadow:3px 2px 3px 2px rgb(100, 100, 100);
 }
 .result-random-list{
     padding: 15px;
@@ -79,7 +76,7 @@
 .result-list-block{
     position: relative;
     background-color:#ffffff;
-    box-shadow: 2px 2px 2px 2px rgb(29, 29, 29);
+    border-radius: 0px 10px 10px 0px;
 }
 .result-random-list > div > label{
     margin-left: 40px;
@@ -101,15 +98,15 @@
 @media only screen and (max-width:1200px){
     .result-list-block{
         margin-top: 20px;
+        border-radius: 10px;
+    }
+    .random-execute{
+        border-radius: 10px;
     }
 }
-@media only screen and (max-width:480px){
-    .random-execute{
-        margin:5%;
-        width: 90%;
-    }    
-    #btn-random-submit{
-        margin:15px 0px 20px 0px;
+@media only screen and (max-width:780px){
+    .result-list-block{
+        margin-top: 20px;
     }
     .result-list-block{
         margin-top: 10px;
@@ -120,5 +117,14 @@
     .result-random-now>h2{
         font-size: 35px;
         padding-top:48px;
+    }
+}
+@media only screen and (max-width:480px){
+    .random-execute{
+        margin:5%;
+        width: 90%;
+    }    
+    #btn-random-submit{
+        margin:15px 0px 20px 0px;
     }
 }

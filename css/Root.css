@@ -1,10 +1,10 @@
 :root{
-  --nav-color: #ffffff;
-  --nav-background: #000000;
+  --nav-color: #000000;
+  --nav-background: #ffffff;
   --content-bgd-gradient: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
   --Times-New-Roman:"Times New Roman", Times, serif;
   --Cambria: "Cambria";
-  --background-body:rgb(240, 238, 228);
+  --background-body:rgb(228, 237, 241);
 }
 
 * {
@@ -23,11 +23,11 @@ footer{
   display: flex;
   justify-content:center;
   margin-top:50px;
-  background:rgb(0, 0, 0);
+  background:rgb(255, 255, 255);
   height:50px;
 }
 footer > *{
-  color:#ffffff;
+  color:#1540ff;
   margin:auto 0px;
 }
 
