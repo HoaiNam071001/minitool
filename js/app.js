@@ -64,6 +64,9 @@ $(document).ready(function() {
     })   
     $('.clear-random-result').attr('disabled', true);
 
+
+
+    
     $('.btn-clear-random-now').click(()=>{
         $('.input-random').val('');
         $('.result-random-now').children('h2').html('0');
