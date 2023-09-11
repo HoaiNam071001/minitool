@@ -74,7 +74,10 @@ function removerandom(x){
     if(!$('div.result-random-list').children().length) 
         $('.clear-random-result').attr('disabled', true);
 }
+
+
 setInterval(myTimer, 1000);
+
 
 function myTimer() {
   const date = new Date();
