@@ -75,13 +75,12 @@ $(document).ready(function() {
         $('.result-random-now').children('h2').html('0');
     })
 })
+
 function removerandom(x){
     $('div').remove('.'+x);
     if(!$('div.result-random-list').children().length) 
         $('.clear-random-result').attr('disabled', true);
 }
-
-
 
 
 setInterval(myTimer, 1000);
