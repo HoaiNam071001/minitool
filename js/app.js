@@ -57,11 +57,15 @@ $(document).ready(function() {
 
             
         } 
+
+        
     })
     $('.clear-random-result').click(()=>{
         $('.result-random-list').children().remove();
         $('.clear-random-result').attr('disabled', true);
     })   
+
+
     $('.clear-random-result').attr('disabled', true);
 
     $('.btn-clear-random-now').click(()=>{
