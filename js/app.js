@@ -58,6 +58,8 @@ $(document).ready(function() {
             
         } 
 
+
+
         
     })
     $('.clear-random-result').click(()=>{
