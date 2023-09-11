@@ -78,7 +78,6 @@ function removerandom(x){
 
 setInterval(myTimer, 1000);
 
-
 function myTimer() {
   const date = new Date();
   document.getElementById("clockNam").innerHTML = date.toLocaleTimeString();
