@@ -56,6 +56,7 @@ $(document).ready(function () {
       }, 3000);
     }
   });
+  
   $(".clear-random-result").click(() => {
     $(".result-random-list").children().remove();
     $(".clear-random-result").attr("disabled", true);
@@ -67,6 +68,7 @@ $(document).ready(function () {
     $(".input-random").val("");
     $(".result-random-now").children("h2").html("0");
   });
+
 });
 
 function removerandom(x) {
